@@ -24,20 +24,4 @@
     .navigation a {
         border: none;
     }
-
-    .aboutPhotoContainer {
-        display: grid;
-        grid-template-columns: auto 300px;
-        grid-gap: 10px;
-    }
-
-    .courseContainer {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .courseContainer section {
-        width: 90%;
-    }
-
 }

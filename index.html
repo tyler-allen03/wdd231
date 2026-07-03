@@ -11,30 +11,68 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/base.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-        <img src="images/home.svg" alt="Site Logo" width="512" height="512">
-        <span>Tyler's Site Title</span>
-        <button id="ham-btn" class="hamburger"></button>
+        <img src="images/code-slash.svg" alt="Site Logo" width="512" height="512">
+        <span>Tyler's Home Page</span>
+        <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li><a href="#">News & Events</a></li>
-            <li class="current"><a href="#">Dedicated Temples</a></li>
-            <li><a href="#">Announced Temples</a></li>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Dedicated Temples</h1>
+        <h1>Home</h1>
+        <div class="aboutPhotoContainer">
+            <section class="sectAbout">
+                <h2>About Me</h2>
+                <p>I was born in Idaho, and my family has moved several times since then. I've lived in Alaska,
+                    Mississippi,
+                    and Missouri. Back in thrid grade I decided to start singing in the choir after school and never
+                    stopped
+                    singing in choirs, and I was able to never miss a year through my schooling. Now I currently am my
+                    YSA
+                    Wards Choir Director and the Wards Organist. My other hobby has been with technology and it's been
+                    fun
+                    learning all about computers and coding.</p>
+            </section>
+            <section class="sectPhoto">
+                <h2>Student Photo</h2>
+                <div class="sectPhotoImageContainer">
+                    <img src="images/profile.jpg" alt="A Photo of Me, Tyler Allen">
+                </div>
+            </section>
+        </div>
+        <section class="sectWeb">
+            <h2>Web Certificate Courses</h2>
+            <div class="courseSelect">
+                <button class="all-btn" id="all-btn">All</button>
+                <button class="cse-btn" id="cse-btn">CSE</button>
+                <button class="wdd-btn" id="wdd-btn">WDD</button>
+            </div>
+            <p>The total credits for the courses listed below are <span id="creditCount"></span></p>
+            <div class="courseContainer"></div>
+        </section>
     </main>
     <footer>
         <div class="social">
-            <a href="https://github.com" target="_blank"><img src="images/github.svg" alt="Github" width="16" height="16"></a>
-            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
-            <a href="https://teams.live.com/free" target="_blank"><img src="images/microsoft-teams.svg" alt="Microsoft Teams" width="16" height="16"></a>
-            <a href="https://store.steampowered.com/" target="_blank"><img src="images/steam.svg" alt="Steam" width="16" height="16"></a>
+            <a href="https://github.com" target="_blank"><img src="images/github.svg" alt="Github" width="16"
+                    height="16"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="16"
+                    height="16"></a>
+            <a href="https://teams.live.com/free" target="_blank"><img src="images/microsoft-teams.svg"
+                    alt="Microsoft Teams" width="16" height="16"></a>
+            <a href="https://store.steampowered.com/" target="_blank"><img src="images/steam.svg" alt="Steam" width="16"
+                    height="16"></a>
         </div>
         <p>copyright symbol and current year</p>
         <p>last modified</p>
