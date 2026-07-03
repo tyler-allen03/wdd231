@@ -1,9 +1,11 @@
-document.getElementById("currentyear").innerHTML = new Date().getFullYear()
-document.getElementById("lastModified").innerHTML = document.lastModified;
+
 
 const navbutton = document.querySelector('#ham-btn');
+
 const navlinks = document.querySelector('#nav-bar');
 
+document.getElementById("currentyear").innerHTML = new Date().getFullYear()
+document.getElementById("lastModified").innerHTML = document.lastModified;
 navbutton.addEventListener('click', () => {
     navbutton.classList.toggle('show');
     navlinks.classList.toggle('show');
