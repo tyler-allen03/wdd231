@@ -1,0 +1,34 @@
+* {
+    line-height: 1.5;
+    font-family: "Cause", cursive;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+}
+
+section {
+    border: solid black 1px;
+    width: 25rem;
+    margin: 10px;
+    background-color: lightyellow;
+    text-align: center;
+    color: blueviolet;
+}
+
+section img {
+    display: block;
+    width: 90%;
+    margin: 10px 5%;
+}
