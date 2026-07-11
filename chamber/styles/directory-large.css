@@ -50,6 +50,14 @@
         grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
     }
 
+    .list .nonEssential {
+        display: block;
+    }
+
+    .list section img {
+        display: none;
+    }
+
     .list section {
         grid-template-columns: 1fr 1fr 1fr;
     }

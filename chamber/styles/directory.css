@@ -103,6 +103,16 @@ h1 {
 .list {
     display: flex;
     flex-direction: column;
+    margin: 10px auto;
+}
+
+.list section a {
+    overflow-wrap: break-word;
+    margin-right: 10px;
+}
+
+.list .nonEssential {
+    display: none;
 }
 
 .list section {
@@ -110,6 +120,14 @@ h1 {
     grid-template-columns: 50% 50%;
     border: solid 1px #aaa;
     background-color: #eee;
+    align-items: center;
+    justify-content: center;
+}
+
+.list section h2,
+.list section p {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .list section:nth-child(even) {

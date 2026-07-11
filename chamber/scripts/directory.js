@@ -38,8 +38,11 @@ const displaymembers = (members) => {
 
         companyName.textContent = member.name;
         companyEmail.textContent = member.email;
+        companyEmail.classList.add("nonEssential");
         companyPhone.textContent = member.phoneNumber;
+        companyPhone.classList.add("nonEssential");
         companyAddress.textContent = member.address;
+        companyAddress.classList.add("nonEssential");
         companyURL.textContent = member.url;
 
         companyLogo.setAttribute("src", member.image);
@@ -47,6 +50,7 @@ const displaymembers = (members) => {
         companyLogo.setAttribute("loading", "lazy");
         companyLogo.setAttribute("width", "auto");
         companyLogo.setAttribute("height", "100");
+        // companyLogo.classList.add("nonEssential");
 
         card.appendChild(companyName);
         card.appendChild(companyLogo);
