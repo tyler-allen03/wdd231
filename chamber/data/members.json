@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name":"Steam",
+            "address":"404 Youwish lane, Somewhere USA, 12345",
+            "phoneNumber":4045554201,
+            "url":"https://store.steampowered.com/",
+            "image":"https://store.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016",
+            "membershipLevel":3,
+            "email":"support@something.org"
+        },
+        {
+            "name": "Buy 'n Large",
+            "address": "40 Downthestreet circle, Earth 00000",
+            "phoneNumber": 7005554568,
+            "url": "https://buynlarge.itsasuperstore.allyouneed.com/",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/BnL_logo.svg/500px-BnL_logo.svg.png",
+            "membershipLevel": 2,
+            "email": "youdontneedthis@weownyou.gov"
+        },
+        {
+            "name": "Umbrella Corperation",
+            "address": "You dontwantthis, Raccoon City Americavile",
+            "phoneNumber": 6665556666,
+            "url": "https://umbrellacorp.letustestyou.com/",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Umbrella_Corporation_Logo.png",
+            "membershipLevel": 1,
+            "email": "howaboutno@youwontbealivetousethis.org"
+        },
+        {
+            "name": "Delphi",
+            "address": "The Cradle, Moon",
+            "phoneNumber": 4565559874,
+            "url": "https://Delphi.uhoh.com/",
+            "image": "https://static.wikia.nocookie.net/villains/images/5/55/Delphi_Corp.png/revision/latest/scale-to-width-down/1200?cb=20260502041847",
+            "membershipLevel": 3,
+            "email": "HughWilliams@wemadeamistake.gov"
+        },
+        {
+            "name": "Fazbear Entertainment",
+            "address": "MegaPizzaPlex, Hurricane Utah",
+            "phoneNumber": 3255551538,
+            "url": "https://fazbearentertainment.com/",
+            "image": "https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/8/82/FazbearEntertainment-ARLogo.png/revision/latest?cb=20191130000903",
+            "membershipLevel": 3,
+            "email": "really@noyoudontggy.com"
+        },
+        {
+            "name": "S.E.A.F.",
+            "address": "New York Supreme, Super Earth",
+            "phoneNumber": 5555555555,
+            "url": "https://supereartharmedforces.home.com/",
+            "image": "https://static.wikia.nocookie.net/greatmultiverse/images/8/88/Super-Earth-Flag.jpeg/revision/latest?cb=20241013152343",
+            "membershipLevel": 2,
+            "email": "johnhelldiver@seaf.gov"
+        },
+        {
+            "name": "Aperture Science",
+            "address": "ha street, earth",
+            "phoneNumber": 1015550010,
+            "url": "https://aperturescience.portals.com/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTKPEVKSjEIXdrHIhD0CP6L5PMVlr4mmZk7KJOsjHb7Q&s=10",
+            "membershipLevel": 1,
+            "email": "Chell@aperture.org"
+        }
+    ]
+}
