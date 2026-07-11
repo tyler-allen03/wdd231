@@ -45,6 +45,10 @@
         height: 40px;
     }
 
+    h1 {
+        margin-left: 25px;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
