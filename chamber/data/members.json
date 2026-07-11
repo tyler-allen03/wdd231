@@ -3,7 +3,7 @@
         {
             "name":"Steam",
             "address":"404 Youwish lane, Somewhere USA, 12345",
-            "phoneNumber":4045554201,
+            "phoneNumber":"(404)555-4201",
             "url":"https://store.steampowered.com/",
             "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/3840px-Steam_icon_logo.svg.png",
             "membershipLevel":3,
@@ -12,7 +12,7 @@
         {
             "name": "Buy 'n Large",
             "address": "40 Downthestreet circle, Earth 00000",
-            "phoneNumber": 7005554568,
+            "phoneNumber": "(700)555-4568",
             "url": "https://buynlarge.itsasuperstore.allyouneed.com/",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/BnL_logo.svg/500px-BnL_logo.svg.png",
             "membershipLevel": 2,
@@ -21,7 +21,7 @@
         {
             "name": "Umbrella Corperation",
             "address": "You dontwantthis, Raccoon City Americavile",
-            "phoneNumber": 6665556666,
+            "phoneNumber": "(666)555-6666",
             "url": "https://umbrellacorp.letustestyou.com/",
             "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Umbrella_Corporation_Logo.png",
             "membershipLevel": 1,
@@ -30,7 +30,7 @@
         {
             "name": "Delphi",
             "address": "The Cradle, Moon",
-            "phoneNumber": 4565559874,
+            "phoneNumber": "(456)555-9874",
             "url": "https://Delphi.uhoh.com/",
             "image": "https://ih1.redbubble.net/image.6124324269.0180/st,small,507x507-pad,600x600,f8f8f8.jpg",
             "membershipLevel": 3,
@@ -39,7 +39,7 @@
         {
             "name": "Fazbear Entertainment",
             "address": "MegaPizzaPlex, Hurricane Utah",
-            "phoneNumber": 3255551538,
+            "phoneNumber": "(325)555-1538",
             "url": "https://fazbearentertainment.com/",
             "image": "https://m.gjcdn.net/fireside-post-image/600/33775843-kexfzzkp-v4.webp",
             "membershipLevel": 3,
@@ -48,7 +48,7 @@
         {
             "name": "S.E.A.F.",
             "address": "New York Supreme, Super Earth",
-            "phoneNumber": 5555555555,
+            "phoneNumber": "(555)555-5555",
             "url": "https://supereartharmedforces.home.com/",
             "image": "https://images.steamusercontent.com/ugc/2486619694634236929/14E392B13DA41933E3B3D68FEFA3C17E33ECFF68/",
             "membershipLevel": 2,
@@ -57,7 +57,7 @@
         {
             "name": "Aperture Science",
             "address": "ha street, earth",
-            "phoneNumber": 1015550010,
+            "phoneNumber": "(101)555-0010",
             "url": "https://aperturescience.portals.com/",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTKPEVKSjEIXdrHIhD0CP6L5PMVlr4mmZk7KJOsjHb7Q&s=10",
             "membershipLevel": 1,

@@ -45,4 +45,13 @@
         height: 40px;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+    }
+
+    .list section {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }

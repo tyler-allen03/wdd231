@@ -84,6 +84,52 @@ h1 {
 
 /* main stuff */
 
+.menu {
+    display: flex;
+    justify-content: center; 
+    gap: 4rem;
+    margin-top: 10px;
+}
+
+.menu button {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: solid 1px #aaa;
+    background-color: #eee;
+}
+
+.list section:nth-child(even) {
+    background-color: #aaa;
+}
+
+.list section img {
+    display: none;
+}
+
+.grid section {
+    display: block;
+    margin: 10px auto;
+    border: solid black 1px;
+    padding: 1rem;
+    padding-top: 0;
+    width: 400px;
+    text-align: center;
+}
+
 /* footer stuff */
 
 footer {
@@ -114,3 +160,4 @@ footer {
 .social a:hover {
     background-color: #ddd;
 }
+

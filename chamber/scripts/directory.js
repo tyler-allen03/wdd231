@@ -17,12 +17,16 @@ async function getMemberData() {
     const response = await fetch(url);
     const data = await response.json();
     console.table(data.companies);
-    displaymembers(data.companies);
+    if (cards.innerHTML.trim() === '') {
+        displaymembers(data.companies);
+    }
+    
 }
 
 getMemberData();
 
 const displaymembers = (members) => {
+    cards.textContent = "";
     members.forEach(member => {
         let card = document.createElement("section");
         let companyName = document.createElement("h2");
@@ -53,4 +57,23 @@ const displaymembers = (members) => {
 
         cards.appendChild(card);
     });
+}
+
+
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("#cards");
+
+
+gridbutton.addEventListener("click", () => {
+    display.classList.add("grid");
+    display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); 
+
+function showList() {
+    display.classList.add("list");
+    display.classList.remove("grid");
 }
