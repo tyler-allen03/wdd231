@@ -175,11 +175,24 @@ section {
     border: solid 1px;
 }
 
+.hero img {
+    width: 100%;
+}
 
+.hero{
+    position: relative;
+}
 
+.subText {
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    background-color: rgb(255 255 255 / 70%);
+}
 
-
-
+.subText h1 {
+    margin: 0;
+}
 
 
 
