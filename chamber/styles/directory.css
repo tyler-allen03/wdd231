@@ -148,6 +148,51 @@ h1 {
     text-align: center;
 }
 
+h1, h2, h3, p {
+    text-align: center;
+}
+
+section {
+    display: grid;
+    place-items: center;
+}
+
+.forecast {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.forecastDay {
+    padding: 10px;
+    border: solid 1px;
+}
+
+/* .spotlightsContainter {
+    border: solid 1px;
+} */
+
+#cards section {
+    padding: 5px;
+    border: solid 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer stuff */
 
 footer {

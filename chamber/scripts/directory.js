@@ -16,7 +16,7 @@ const cards = document.querySelector('#cards');
 async function getMemberData() {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.companies);
+    // console.table(data.companies);
     if (cards.innerHTML.trim() === '') {
         displaymembers(data.companies);
     }
