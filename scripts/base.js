@@ -115,6 +115,10 @@ function createCourseList(filteredCourse) {
         sub = `${done} ${course.subject} ${course.number}`
         card.append(sub);
 
+        card.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
+
         document.querySelector(".courseContainer").appendChild(card);
     });
 }
@@ -136,3 +140,23 @@ wddBTN.addEventListener("click", () => {
     createCourseList(courses.filter(course => course.subject == "WDD"))
     creditNumber.textContent = courses.filter(course => course.subject == "WDD").reduce((acc, course) => acc + course.credits, 0);
 });
+
+const courseDetails = document.querySelector("#course-details")
+
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+    courseDetails.showModal();
+
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
+    });
+}
