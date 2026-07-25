@@ -76,27 +76,16 @@
                     <textarea name="desc" id="desc" title="Buisness Description"></textarea>
                 </fieldset>
                 <fieldset class="memberSelect">
-                    <legend>Membership Level*</legend>
-
-                    <div>
-                        <label for="nonprofit">Non Profit</label>
-                        <input type="radio" name="membership" value="np" id="nonprofit" required>
-                    </div>
-
-                    <div>
-                        <label for="bronze"> Bronze</label>
-                        <input type="radio" name="membership" value="bronze" id="bronze" required>
-                    </div>
-
-                    <div>
-                        <label for="silver">Silver</label>
-                        <input type="radio" name="membership" value="silver" id="silver" required>
-                    </div>
-
-                    <div>
-                        <label for="gold">Gold</label>
-                        <input type="radio" name="membership" value="gold" id="gold" required>
-                    </div>
+                    <legend>Membership Level</legend>
+                    
+                    <label for="membership">Membership Level*</label>
+                    <select name="membership" id="membership">
+                        <option selected disabled>Please choose</option>
+                        <option value="np">Non Profit</option>
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select>
                 </fieldset>
                 <input type="hidden" name="timestamp" id="timestamp" value="">
                 <input type="submit" name="submit" id="submit" value="Sign Me Up">
