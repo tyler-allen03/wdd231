@@ -73,4 +73,29 @@
     .spotlightsContainter section {
         margin: 10px;
     }
+
+    .joinMainDiv {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 5rem;
+    }
+
+    #mainForm {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 }

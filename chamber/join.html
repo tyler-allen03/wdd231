@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Membership Join | WDD 231</title>
+    <meta name="description"
+        content="This is the membership join page for the WDD231 Chambers project that we work on as a team throught the term.">
+    <meta name="author" content="Tyler Allen">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
+    <script src="scripts/join.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Chambers Directory">
+    <meta property="og:description"
+        content="This is the Chambers directory page for the WDD231 course, featuring Independence Missouri.">
+    <meta property="og:url" content="https://tyler-allen03.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://tyler-allen03.github.io/wdd231/chamber/images/independence-hero.jpg">
+</head>
+
+<body>
+    <div class="headNav">
+        <header>
+            <img src="images/flag.svg" alt="Site Logo" width="512" height="512">
+            <span>Independence Chamber of Commerce</span>
+            <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+        </header>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h1>Chamber of Chommerce Membership Sign-up</h1>
+        <div class="joinMainDiv">
+            <form method="get" action="thankyou.html" id="mainForm">
+                <fieldset>
+                    <legend>Your Personal Info</legend>
+                    <label for="Fname">First Name*</label>
+                    <input type="text" name="first" id="Fname" autocomplete="given-name" title="Your First Name"
+                        required>
+
+                    <label for="Lname">Last Name*</label>
+                    <input type="text" name="last" id="Lname" autocomplete="family-name" title="Your Last Name"
+                        required>
+
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" id="email" autocomplete="email" title="Your Email" required>
+
+                    <label for="phone">Phone Number*</label>
+                    <input type="tel" name="phone" id="phone" autocomplete="tel" title="Your Phone Number" required>
+                </fieldset>
+                <fieldset>
+                    <legend> Buisness Info</legend>
+
+                    <label for="oTitle">Organizational Title</label>
+                    <input type="text" name="oTitle" id="oTitle" autocomplete="organization-title"
+                        title="Your Organizational Title" pattern="[A-Za-z\s-]{7,}">
+
+                    <label for="buisness">Buisness Name*</label>
+                    <input type="text" name="buisness" id="buisness" autocomplete="organization"
+                        title="Your Buisness Name" required>
+
+                    <label for="desc">Buisness Description</label>
+                    <textarea name="desc" id="desc" title="Buisness Description"></textarea>
+                </fieldset>
+                <fieldset class="memberSelect">
+                    <legend>Membership Level*</legend>
+
+                    <div>
+                        <label for="nonprofit">Non Profit</label>
+                        <input type="radio" name="membership" value="nonprofit" id="nonprofit" required>
+                    </div>
+
+                    <div>
+                        <label for="bronze"> Bronze</label>
+                        <input type="radio" name="membership" value="bronze" id="bronze" required>
+                    </div>
+
+                    <div>
+                        <label for="silver">Silver</label>
+                        <input type="radio" name="membership" value="silver" id="silver" required>
+                    </div>
+
+                    <div>
+                        <label for="gold">Gold</label>
+                        <input type="radio" name="membership" value="gold" id="gold" required>
+                    </div>
+                </fieldset>
+                <input type="hidden" name="timestamp" id="timestamp" value="">
+                <input type="submit" name="submit" id="submit" value="Sign Me Up">
+            </form>
+            <div class="memberInfo">
+                <h2>Membership Levels</h2>
+                <section class="NPML">
+                    <p>Non Profit Membership Level</p>
+                    <Button id="NPBTN">Learn More</Button>
+                </section>
+                <section class="BML">
+                    <p>Bronze Membership Level</p>
+                    <Button id="BBTN">Learn More</Button>
+                </section>
+                <section class="SML">
+                    <p>Silver Membership Level</p>
+                    <Button id="SBTN">Learn More</Button>
+                </section>
+                <section class="GML">
+                    <p>Gold Membership Level</p>
+                    <Button id="GBTN">Learn More</Button>
+                </section>
+            </div>
+        </div>
+        <dialog id="memberDialog">
+            <div></div>
+            <button id="closeBTN">Close</button>
+        </dialog>
+    </main>
+    <footer>
+        <div class="footContainer">
+            <div class="citeInfo">
+                <p><strong>Independence Chamber of Commerce</strong></p>
+                <p>1836 Independence Street circle, Independence Missouri, 64055</p>
+                <p>info@fakeemail.gov</p>
+                <p>(816)555-8463</p>
+            </div>
+            <div class="social">
+                <a href="https://github.com" target="_blank"><img src="images/github.svg" alt="Github" width="16"
+                        height="16"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn"
+                        width="16" height="16"></a>
+                <a href="https://teams.live.com/free" target="_blank"><img src="images/microsoft-teams.svg"
+                        alt="Microsoft Teams" width="16" height="16"></a>
+            </div>
+            <div class="personalInfo">
+                <p>WDD 231 Course Project</p>
+                <p>Tyler Allen</p>
+                <p>&copy;<span id="currentyear"></span> | Independence Chamber of Commerce</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -86,7 +86,7 @@ h1 {
 
 .menu {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     gap: 4rem;
     margin-top: 10px;
 }
@@ -148,7 +148,10 @@ h1 {
     text-align: center;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
     text-align: center;
 }
 
@@ -179,7 +182,7 @@ section {
     width: 100%;
 }
 
-.hero{
+.hero {
     position: relative;
 }
 
@@ -193,6 +196,134 @@ section {
 .subText h1 {
     margin: 0;
 }
+
+#mainForm {
+    margin: 10px;
+
+    fieldset {
+        border: solid blueviolet 1px;
+        margin-top: 1rem;
+        padding: 1rem;
+
+        legend {
+            font-size: larger;
+            padding: 5px;
+        }
+
+        label {
+            font-size: larger;
+            display: block;
+            padding-top: 1rem;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            max-width: 300px;
+            font-size: 2rem;
+            border: black solid 2px;
+            border-radius: 10px;
+        }
+
+        input:required {
+            border-right-width: 10px;
+            border-right-color: red;
+        }
+
+        input:focus {
+            border-right-width: 10px;
+            border-right-color: black;
+            outline: none;
+        }
+
+        input:required:valid {
+            border-right-width: 10px;
+            border-right-color: green;
+        }
+
+
+    }
+
+    input[type="submit"] {
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin: 10px 5%;
+        width: 90%;
+    }
+
+    input[type="submit"]:hover {
+        background-color: purple;
+        color: white;
+        cursor: pointer;
+    }
+
+
+    .memberSelect {
+        display: flex;
+        justify-content: space-around;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input[type="radio"] {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+}
+
+.memberInfo {
+    section {
+        border: solid black 1px;
+        border-radius: 50px 15px;
+        width: 300px;
+        margin: 10px auto;
+        padding: 1rem;
+        font-size: larger;
+        font-weight: 600;
+        animation-name: fadeIn;
+        animation-duration: 4s;
+
+        button {
+            border: 1px solid black;
+            background-color: pink;
+            color: purple;
+            font-size: larger;
+            padding: 10px;
+            border-radius: 15px;
+        }
+    }
+
+    .NPML {
+        background-color: lightblue;
+    }
+
+    .BML {
+        background-color: darkorange;
+    }
+
+    .SML {
+        background-color: silver;
+    }
+
+    .GML {
+        background-color: gold;
+    }
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -237,3 +368,17 @@ footer {
     background-color: #ddd;
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    25%{
+        opacity: .75;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
