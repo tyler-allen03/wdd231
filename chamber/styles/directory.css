@@ -317,35 +317,55 @@ section {
 
 }
 
+#placeContainer {
+    display: grid;
+    justify-content: center;
+
+    div {
+        text-align: center;
+        border: 1px solid black;
+        width: 95%;
+        margin: 10px auto;
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: #eee;
+        font-weight: 600;
+        display: grid;
+        grid-template-areas: 
+        "name"
+        "photograph"
+        "description"
+        "location"
+        "button";
+
+        h2 {
+            grid-area: name;
+        }
+
+        img {
+            width: 100%;
+            grid-area: photograph;
+        }
+
+        p {
+            grid-area: description;
+        }
+
+        address {
+            grid-area: location;
+        }
+
+        button {
+            grid-area: button;
+            padding: 5px;
+            margin: 5px auto;
+            background-color: white;
+            max-width: 100px;
+        }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+}
 
 /* footer stuff */
 

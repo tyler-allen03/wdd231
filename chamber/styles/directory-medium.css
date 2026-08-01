@@ -1,11 +1,11 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 38rem) {
 
     header,
     main,
     nav,
     footer,
     .headNav {
-        max-width: 1300px;
+        max-width: 900px;
         margin: 0 auto;
     }
 
@@ -70,6 +70,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
     .spotlightsContainter section {
         margin: 10px;
     }
@@ -85,15 +86,11 @@
         margin: 0 auto;
     }
 
-    #placeContainer {
-        grid-template-columns: 1fr 1fr;
-        font-size: small;
+    #placeContainer div {
+        grid-template-areas:
+            "photograph name"
+            "photograph description"
+            "photograph location"
+            "photograph button";
     }
-
-    #placeContainer img:hover {
-        transform: scale(1.2);
-        border: 1px solid black;
-        box-shadow: 0 0 500px black;
-    }
-
 }
