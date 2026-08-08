@@ -12,7 +12,7 @@ navbutton.addEventListener('click', () => {
 
 
 const animatronicUrl = 'https://tyler-allen03.github.io/wdd231/finalProject/data/animatronics.json';
-const cards = document.querySelector('#characterContainer');
+const cards = document.querySelector('#locationsContainer');
 
 
 async function getAnimatronicData() {

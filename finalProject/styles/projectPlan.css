@@ -75,7 +75,7 @@ body {
     background: linear-gradient(#1c1c1c, #301934);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: #39ff14;
 }
 
@@ -170,8 +170,11 @@ section {
     }
 }
 
-
-
+#characterContainer ul {
+    color: #FFA8DD;
+    list-style: none;
+    padding: 0;
+}
 
 
 
