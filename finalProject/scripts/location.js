@@ -34,7 +34,7 @@ getLocationData();
 const displayLocations = (locations) => {
     locations.forEach(location => {
         let card = document.createElement("section");
-        let name = document.createElement("h3");
+        let name = document.createElement("h2");
         let map = document.createElement("img");
         let lore = document.createElement("p");
         let player = document.createElement('p');

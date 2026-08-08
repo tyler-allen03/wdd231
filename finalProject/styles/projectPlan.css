@@ -14,6 +14,11 @@ header {
     column-gap: 8px;
 }
 
+header span {
+    font-size: 1.2rem;
+    color: #39ff14;
+}
+
 /* ham nav */
 
 .hamburger {

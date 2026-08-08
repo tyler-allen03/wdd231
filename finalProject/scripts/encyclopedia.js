@@ -37,10 +37,10 @@ const displayAnimatronics = (animatronics) => {
         let card = document.createElement("section");
 
         card.innerHTML = `
-        <h3>${animatronic.name}</h3>
+        <h2>${animatronic.name}</h2>
         <p><strong>Appearance:</strong> ${animatronic.appearance}</p>
         <p><strong>Mechanic:</strong> ${animatronic.mechanic}</p>
-        <h4>Featured Games:</h4>
+        <h3>Featured Games:</h3>
         <ul>
             ${animatronic.games.map(game => `<li>${game}</li>`).join('')}
          </ul>`
@@ -59,9 +59,9 @@ const dialogBTN = document.querySelector("#dialogBTN")
 
 dialogBTN.addEventListener("click", () => {
     dialogBoxText.innerHTML = `
-    <h3>Disclaimer</h3>
+    <h2>Disclaimer</h2>
     <p>The suggestions you make here are not gaurunteed and will be reviewed before being implamented into the system.</p>
-    <h3>Reminder</h3>
+    <h2>Reminder</h2>
     <p>Certain characters are not going to be added to the list as they are not really relevant to the lore. Such characters would be Twisted Wolf, as he is only present in the twisted ones novel.</p>`;
     dialogBox.showModal();
 })
