@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encyclopedia Page | WDD 231</title>
+    <meta name="description" content="This is the Encyclopedia page for the WDD231 courses final project.">
+    <meta name="author" content="Tyler Allen">
+    <link rel="stylesheet" href="styles/projectPlan.css">
+    <script src="scripts/encyclopedia.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="headNav">
+        <header>
+            <h1>Five Nights at Freddy's Character Encyclopedia</h1>
+            <button id="navBTN" class="hamburger" aria-label="navigation"></button>
+        </header>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="home.html">Home Page</a></li>
+                <li class="current"><a href="encyclopedia.html">Encyclopedia</a></li>
+                <li><a href="location.html">Locations</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h2>Character Encyclopedia</h2>
+        <div id="characterContainer"></div>
+        <section>
+            <p>Did I miss anyone? Let me know here!</p>
+            <form method="get" action="thankyou.html" id="mainForm">
+                <fieldset>
+                    <legend>Let me know who I missed</legend>
+                    <label for="Fname">First Name*</label>
+                    <input type="text" name="first" id="Fname" autocomplete="given-name" title="Your First Name"
+                        required>
+
+                    <label for="Lname">Last Name*</label>
+                    <input type="text" name="last" id="Lname" autocomplete="family-name" title="Your Last Name"
+                        required>
+
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" id="email" autocomplete="email" title="Your Email"
+                        placeholder="name@example.com" required>
+                    <label for="missingAnimatronic">Missing Animatronic</label>
+                    <textarea name="missingAnimatronic" id="missingAnimatronic" title="animatronic" required></textarea>
+
+                </fieldset>
+                <input type="submit" name="submit" id="submit" value="Let me know">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Tyler Allen | Missouri</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+{
+    "fnaf_locations": [
+        {
+            "location": "Murray's Costume Manor (MCM)",
+            "lore_significance": "A mascot, costume, and animatronic workshop owned by Edwin Murray. It serves as the origin point for the Mimic endoskeleton (M1/M2) and produced early commissions for Fazbear Entertainment before Edwin abandoned the facility.",
+            "why_player_is_there": "Primary setting in Secret of the Mimic where characters explore the abandoned factory to retrieve artifacts and unravel the origins of the Mimic.",
+            "gameplay_mechanics": "First-person survival horror navigation through various facility zones (showrooms, roof access, maintenance tunnels) while avoiding rogue animatronics and the Mimic."
+        },
+        {
+            "location": "Fredbear's Family Diner",
+            "lore_significance": "Original establishment where the tragic events began, including Charlie's death and the Bite of '83.",
+            "why_player_is_there": "Player controls the Crying Child living out his final days before his fatal birthday party.",
+            "gameplay_mechanics": "8-bit narrative minigames involving navigating the location, avoiding mascots, and triggering scripted story events."
+        },
+        {
+            "location": "Freddy Fazbear's Pizza (First Location / 1985 Era)",
+            "lore_significance": "Site of the 1985 Missing Children's Incident (MCI) where William Afton murdered five children.",
+            "why_player_is_there": "Depicted via retro death minigames showing the immediate aftermath of the murders and animatronic destruction.",
+            "gameplay_mechanics": "Top-down or side-scrolling 8-bit minigames controlling possessed animatronics following shadowy figures or giving gifts to children."
+        },
+        {
+            "location": "Freddy Fazbear's Pizza (1987 Reopening)",
+            "lore_significance": "Revamped pizzeria with high-tech 'Toy' animatronics that ends up closing after another murder spree and the Bite of '87.",
+            "why_player_is_there": "Jeremy Fitzgerald (and Fritz Smith) works as the night security guard to earn a paycheck.",
+            "gameplay_mechanics": "Doorless office setup requiring players to use a flashlight, wind a remote Music Box, and wear a Freddy mask to fool animatronics."
+        },
+        {
+            "location": "Freddy Fazbear's Pizza (1993 Location)",
+            "lore_significance": "Dying, budget-restricted restaurant where the original possessed animatronics operate until shutting down permanently.",
+            "why_player_is_there": "Mike Schmidt (Michael Afton) takes the night guard job seeking answers about his father's actions.",
+            "gameplay_mechanics": "Camera monitoring system requiring power management across security feeds, door lights, and closing heavy metal doors."
+        },
+        {
+            "location": "Circus Baby's Entertainment and Rental",
+            "lore_significance": "Underground lab housing advanced 'Funtime' animatronics designed by Afton to capture children.",
+            "why_player_is_there": "Michael Afton is sent by his father to find and free his sister, Elizabeth.",
+            "gameplay_mechanics": "Objective-based maintenance across rooms, crawling through vents, repairing internal components, and reacting to audio cues."
+        },
+        {
+            "location": "Fazbear's Fright: The Horror Attraction",
+            "lore_significance": "Amusement attraction built 30 years later capitalizing on urban legends, holding the recovered Springtrap suit.",
+            "why_player_is_there": "An unnamed night guard works the shift to monitor systems before the attraction opens.",
+            "gameplay_mechanics": "Defending against Springtrap via audio lures while using a secondary monitor to reboot failing Ventilation, Audio, and Video systems."
+        },
+        {
+            "location": "Freddy Fazbear's Pizza Place",
+            "lore_significance": "Decoy restaurant designed by Henry Emily and Michael Afton to lure and burn all remaining haunted entities.",
+            "why_player_is_there": "Michael Afton manages the franchise by day and conducts night salvages/tasks to complete the plan.",
+            "gameplay_mechanics": "Split between daytime business management and night task management (using a computer terminal while managing heat and vent audio lures)."
+        },
+        {
+            "location": "Fazbear Virtual Experience",
+            "lore_significance": "VR game made to discredit rumors, which accidentally brings Glitchtrap (Afton's digital virus) into existence.",
+            "why_player_is_there": "Vanessa and the player act as software playtesters, falling under Glitchtrap's influence.",
+            "gameplay_mechanics": "First-person VR minigames recreating classic FNaF mechanics alongside new vent repair, maintenance, and survival challenges."
+        },
+        {
+            "location": "Freddy Fazbear's Mega Pizzaplex",
+            "lore_significance": "Massive 80s-themed mall built over the FNaF 6 ruins where Vanny works to resurrect Afton.",
+            "why_player_is_there": "Gregory, a homeless child, gets trapped inside after closing and must survive until 6:00 AM.",
+            "gameplay_mechanics": "3D free-roam survival horror featuring stealth, hiding spots, defensive gadgets (Faz-Cam/Fazerblaster), and assistance from Glamrock Freddy."
+        }
+    ]
+}

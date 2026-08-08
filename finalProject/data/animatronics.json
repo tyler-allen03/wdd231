@@ -1,0 +1,1223 @@
+{
+    "animatronics": [
+        {
+            "name": "Freddy Fazbear",
+            "games": [
+                "Five Nights at Freddy's",
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A brown anthropomorphic bear wearing a black top hat and bow tie, holding a microphone. Has bright blue eyes and standard fabric-covered plating.",
+            "mechanic": "Becomes active starting Night 3. Moves along a fixed path through dark areas and hides from camera view. If the office power reaches 0%, he appears in the left doorway with glowing eyes and plays his music box tune before jumpscaring."
+        },
+        {
+            "name": "Bonnie",
+            "games": [
+                "Five Nights at Freddy's",
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A purple/lavender anthropomorphic rabbit wearing a bright red bow tie and holding a red electric guitar.",
+            "mechanic": "Approaches exclusively from the Left Hallway. Moves quickly and unpredictably between rooms. If he enters the office undetected, he disables the left door and light controls before attacking when the monitor is lowered."
+        },
+        {
+            "name": "Chica",
+            "games": [
+                "Five Nights at Freddy's",
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A yellow anthropomorphic chicken wearing a white bib that reads 'LET'S EAT!!!' in multicolored block text. Has magenta eyes and carries a tray with Mr. Cupcake.",
+            "mechanic": "Approaches exclusively from the Right Hallway. Often makes clattering noises in the Kitchen (where the camera feed is audio-only). If she enters the office, she disables the right door and light controls before attacking."
+        },
+        {
+            "name": "Foxy the Pirate",
+            "games": [
+                "Five Nights at Freddy's",
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A reddish-brown tattered pirate fox with an eye patch, a hook for a right hand, ripped legs exposing metal endoskeleton parts, and an open chest revealing wires.",
+            "mechanic": "Hides behind the curtain at Pirate Cove. Progresses through stages of emerging if not checked regularly on the monitor. Once fully escaped, he sprints down the West Hall; the player must quickly close the left door to block him."
+        },
+        {
+            "name": "Golden Freddy",
+            "games": [
+                "Five Nights at Freddy's",
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's 4",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A yellow/gold variant of Freddy Fazbear sitting in a limp, slouched position like a discarded costume. Missing eyes (empty black sockets with tiny white pinprick pupils) and wears a dark blue/black top hat and bow tie.",
+            "mechanic": "A mysterious hallucination triggered by looking at CAM 2B when the poster changes. Appears directly inside the office regardless of doors. The player must flip the monitor back up immediately to make him disappear, or face a game crash/jumpscare."
+        },
+        {
+            "name": "Toy Freddy",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A shiny, modern, chubby brown bear animatronic with rosy red cheeks, blue eyes, a tiny black top hat with a red stripe, a black bow tie, and two buttons on his chest.",
+            "mechanic": "Approaches via the main hallway outside the office. Moves into the center of the office when active; the player must quickly equip the Freddy Fazbear Mask before he attacks."
+        },
+        {
+            "name": "Toy Bonnie",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A glossy cyan/bright blue animatronic rabbit with white accents, rosy red cheeks, long ears, green eyes, a red bow tie, and a red guitar.",
+            "mechanic": "Approaches through the Right Air Vent. When visible in the blind spot, the player must put on the Freddy Mask immediately. On PC, a forced animation occurs where he slides across the screen in front of the player."
+        },
+        {
+            "name": "Toy Chica",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A sleek yellow chicken animatronic with pink hot pants, a bib reading 'LET'S PARTY!', and blue eyes. Upon leaving the stage, she loses her beak and her eyes turn pitch black with pinprick white pupils.",
+            "mechanic": "Approaches primarily through the Left Air Vent and hallway. When she is in the left vent blind spot, putting on the Freddy Mask forces her to leave."
+        },
+        {
+            "name": "Mangle (Toy Foxy)",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A heavily dismantled white and pink fox animatronic with two exposed endoskeleton heads, misplaced limbs, exposed wiring, a red bow tie, and yellow eyes.",
+            "mechanic": "Moves along walls and ceilings, emitting a loud static sound when nearby. Enters the office via the Right Air Vent (blockable with the Freddy Mask). If she enters the office, she hangs from the ceiling and will eventually jumpscare the player."
+        },
+        {
+            "name": "Balloon Boy (BB)",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A short, human-like animatronic boy with red and blue striped clothing/hat, rosy cheeks, holding a round balloon and a sign reading 'Balloons!'.",
+            "mechanic": "Approaches through the Left Air Vent while making audio cues ('Hi', 'Hello', laughing). If he enters the office, he doesn't directly kill the player, but disables the flashlight and vent lights, leaving the player vulnerable to Withered Foxy."
+        },
+        {
+            "name": "The Puppet (Marionette)",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy me 3",
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A tall, slender black figure with white stripes on its arms/legs, a stark white smiling mask with red cheeks, lip paint, and purple tear streaks.",
+            "mechanic": "Tied to the Music Box on CAM 11. The player must remotely wind the box to keep the timer from running out. If fully unwound, The Puppet escapes its box and attacks, completely ignoring the Freddy Mask."
+        },
+        {
+            "name": "Withered Freddy",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "An older, heavily worn brown bear with tear marks, scuffs, missing fabric patches, button detail alterations, black eyes with white pupils, and visible endoskeleton joints.",
+            "mechanic": "Moves through the main hall and enters the office directly. The player has a split second to pull down the monitor and equip the Freddy Mask to ward him off."
+        },
+        {
+            "name": "Withered Bonnie",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A severely damaged blue-purple rabbit animatronic missing its entire face (exposing wires and red pinprick eyes underneath) and lacking its left arm.",
+            "mechanic": "Moves rapidly through the building, bypassing vents to step directly into the office in front of the desk. Demands near-instant reflexes to put on the Freddy Mask."
+        },
+        {
+            "name": "Withered Chica",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A dilapidated yellow chicken with a wide-open jaw broken permanently downward, exposed rows of teeth, and arm sockets stripped of hands with dangling wires.",
+            "mechanic": "Crawls through the Right Air Vent and forces her way into the office. The player must react immediately by putting on the Freddy Mask once she appears in the room."
+        },
+        {
+            "name": "Withered Foxy",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A tattered, heavily damaged reddish-brown pirate fox with large sections of suit fabric missing around his torso and legs, exposing his endoskeleton frame.",
+            "mechanic": "Stands directly down the main hallway outside the office. Completely ignores the Freddy Mask. The player must repeatedly flash the flashlight beam at him to reset his AI and force him to retreat."
+        },
+        {
+            "name": "Withered Golden Freddy",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A decayed yellow/gold bear with missing left ear, empty dark eye sockets with pinprick lights, slouched limp posture, and exposed mechanical jointing.",
+            "mechanic": "Appears either as a giant floating head down the main hallway or slouched inside the office room. Putting on the Freddy Mask or switching camera feeds quickly dissipates him; lingering or using the flashlight too long triggers his jumpscare."
+        },
+        {
+            "name": "Springtrap",
+            "games": [
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A severely decayed, weathered olive-green rabbit suit (Spring Bonnie) with exposed mechanical joints, ripped fabric, wire mesh, and the mummified human remains of William Afton visible inside.",
+            "mechanic": "The only physical animatronic capable of killing the player in FNAF 3. Navigates through rooms and ventilation shafts toward the Office. Players must use the Audio Lure (BB's voice cue) on security cameras to keep him away, and seal vent map toggles to block his shortcuts."
+        },
+        {
+            "name": "Phantom Freddy",
+            "games": [
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A charred, burnt-green hallucination using the model of Withered Freddy. Missing a portion of his right leg and exhibits glowing white pinprick pupils inside empty eye sockets.",
+            "mechanic": "Slowly limps past the main office window directly in front of the desk. The player must hide by pulling up the Security Monitor or Maintenance Panel; staring directly at him triggers his jumpscare, causing a Ventilation System Error."
+        },
+        {
+            "name": "Phantom Chica",
+            "games": [
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A burnt, phantom hallucination taking the form of original FNAF 1 Chica with heavily scorched yellow/green fabric, a darkened bib, and bright white pupil dots.",
+            "mechanic": "Appears on the screen of an arcade cabinet on CAM 07. If the player views CAM 07 while she is visible on the machine screen, turning to the left side of the office triggers her immediate jumpscare, triggering a Ventilation Error."
+        },
+        {
+            "name": "Phantom Foxy",
+            "games": [
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A charred, burnt-green phantom apparition using Withered Foxy's design. Missing his right arm below the elbow entirely.",
+            "mechanic": "Randomly spawns standing directly inside the Office to the left of the desk when lowering the monitor. Looking towards him triggers his jumpscare immediately, causing a Ventilation Error. To avoid him, players must slowly turn away or flip the monitor back up."
+        },
+        {
+            "name": "Phantom Balloon Boy (Phantom BB)",
+            "games": [
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A scorched, soot-covered hallucination based on Balloon Boy's model with glowing white pinprick eyes and missing his sign and balloon.",
+            "mechanic": "Randomly replaces the camera feed on any camera with his face. If the player fails to switch camera channels or close the monitor immediately, he jumpscares the player directly in the office, causing a Ventilation Error."
+        },
+        {
+            "name": "Phantom Puppet",
+            "games": [
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A burnt, soot-streaked ghost version of The Puppet with glossy black surfaces and glowing white eyes.",
+            "mechanic": "Appears fully standing in CAM 08. If viewed, it instantly spawns inside the Office and blocks the player's vision and controls for around 17 seconds while emitting a loud screech. Does not cause errors directly, but leaves the player completely vulnerable to Springtrap."
+        },
+        {
+            "name": "Phantom Mangle",
+            "games": [
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A charred, shadowy phantom version of Mangle with glowing white pupils, hanging from room ceilings.",
+            "mechanic": "Appears hanging from the ceiling on CAM 04. If viewed without changing cameras quickly, it appears outside the office window, producing intense screeching audio static that triggers an Audio System Error."
+        },
+        {
+            "name": "Nightmare Freddy",
+            "games": [
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A monstrous, heavily tattered dark brown bear covered in sharp teeth, claws, and tears. Miniature, parasitic versions of himself ('Freddles') attach to his body and spawn on the bed.",
+            "mechanic": "Freddles continuously accumulate on the bed behind the player. The player must turn around and shine the flashlight at the bed to ward them off. If three Freddles assemble without being flashed away, Nightmare Freddy will summon himself and jumpscare the player."
+        },
+        {
+            "name": "Nightmare Bonnie",
+            "games": [
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery"
+            ],
+            "appearance": "A terrifying, decayed blue-violet rabbit with multiple rows of needle-sharp teeth, torn fabric exposing structural wiring, glowing purple/yellow eyes, and sharp metal claws.",
+            "mechanic": "Approaches exclusively down the Left Hallway. The player must walk to the left door and listen closely. If breathing is heard, the door must be held shut until he leaves. Flashing the light while he is at the door results in an instant jumpscare."
+        },
+        {
+            "name": "Nightmare Chica",
+            "games": [
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted"
+            ],
+            "appearance": "A grotesque, decayed yellow chicken with three concentric rows of razor-sharp teeth, a missing left eye, and a terrifying, sentient Nightmare Cupcake with sharp teeth of its own.",
+            "mechanic": "Approaches down the Right Hallway. The player must run to the right door and listen for breathing. If breathing is audible, hold the door closed until she steps away. Flashing the light when she is close causes her or her Nightmare Cupcake to jumpscare the player."
+        },
+        {
+            "name": "Nightmare Foxy",
+            "games": [
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A heavily shredded reddish-brown fox with a metallic snout, long razor claws, exposed leg endoskeletons, and a long metallic tongue.",
+            "mechanic": "Attempts to breach the bedroom via the Left or Right Hallways. If he successfully enters the room unnoticed, he hides inside the closet. The player must periodically check the closet, flashing the light to spot him and holding the closet doors shut to revert him back into a harmless plushie form."
+        },
+        {
+            "name": "Nightmare Fredbear",
+            "games": [
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A massive, hulking yellow/golden bear with a purple bow tie and top hat, giant claws, blood-stained teeth, and a gaping mouth full of teeth in his stomach.",
+            "mechanic": "Becomes active on Night 5 (and Night 6 late-game), replacing all other animatronics. Moves between the Left Hallway, Right Hallway, Closet, and Bed. Players must listen for his footsteps to check the correct hall (holding the door shut if he is close) and check the bed/closet with the light when hearing his laughter."
+        },
+        {
+            "name": "Nightmare",
+            "games": [
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A translucent, pitch-black shadow recolor of Nightmare Fredbear featuring a yellow bow tie and top hat, visible endoskeleton frame inside, and glowing red eyes.",
+            "mechanic": "Acts as an aggressive, faster version of Nightmare Fredbear appearing late in Nightmare Mode / Night 7. His movements generate quick audio cues, and if he attacks, he resets the night or crashes the game rather than displaying a standard jumpscare animation."
+        },
+        {
+            "name": "Plushtrap",
+            "games": [
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A small, tattered, greenish-yellow plush version of Spring Bonnie sitting on a wooden chair in a dark hallway.",
+            "mechanic": "Featured in the 'Fun with Plushtrap' mini-game between nights. The player must turn off the flashlight and listen for his movements as he inches closer from his chair, flashing the light to freeze him directly on the painted 'X' on the floor before the timer runs out."
+        },
+        {
+            "name": "Circus Baby",
+            "games": [
+                "Five Nights at Freddy's: Sister Location",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A large, clown-like humanoid animatronic with bright red pigtails, green eyes, a red dress with ruffled shoulder pads, a built-in microphone, and faceplates that split open to reveal an endoskeleton.",
+            "mechanic": "In the main story, she acts primarily through voice directives to guide the player, but forces the player to hide under her desk on Night 2 and trick her on Night 5. In Custom Night/UCN, she approaches down the right hallway; the player must buy her plushie from the Prize Corner to prevent her jumpscare."
+        },
+        {
+            "name": "Ballora",
+            "games": [
+                "Five Nights at Freddy's: Sister Location",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A tall, elegant ballerina animatronic with dark blue hair, a purple tutu, sharp cheekbones, closed eyes with blue eyeshadow, and miniature dancing 'Minireenas' around her.",
+            "mechanic": "Navigates her gallery by listening for movement while playing a soft musical box melody ('Ballora's Music Box'). In Night 2, the player must crawl slowly and stop entirely whenever her music gets louder to avoid detection. In Custom Night/UCN, she approaches from either hall; players must close the corresponding door based on spatial audio cues."
+        },
+        {
+            "name": "Funtime Freddy (with Bon-Bon)",
+            "games": [
+                "Five Nights at Freddy's: Sister Location",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A white and pink variant of Freddy Fazbear holding a microphone, featuring split faceplates, a chest speaker, and a blue rabbit hand puppet named Bon-Bon replacing his right hand.",
+            "mechanic": "In Breaker Room (Night 3), the player must use audio clips of Bon-Bon to calm him down while restoring power breaker panels. In Custom Night, he commands Bon-Bon to attack down either hallway, requiring the player to close the door on the side Bon-Bon is directed toward."
+        },
+        {
+            "name": "Funtime Foxy",
+            "games": [
+                "Five Nights at Freddy's: Sister Location",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A sleek white and pink fox animatronic with a bushy tail, red bow tie, yellow eyes, painted fingernails, and fully articulated faceplates.",
+            "mechanic": "In Funtime Auditorium (Night 3), the player must traverse a pitch-black room using a flashbeacon periodically to check Foxy's location, moving only when the path is clear. In UCN, the player must check CAM 06 on the hour (e.g., 1 AM, 2 AM) to see when their show starts and be watching the camera at that exact time."
+        },
+        {
+            "name": "Ennard",
+            "games": [
+                "Five Nights at Freddy's: Sister Location",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A chaotic amalgamation of all Funtime animatronic endoskeletons twisted together with dangling wires, wearing a plain white clown mask with a red nose and party hat.",
+            "mechanic": "Serves as the main antagonist in the Private Room (Secret Ending) and Night 5 Scooping Room climax. In the Private Room, Ennard moves through doors and vents using FNAF 1-style mechanics, demanding battery power management and camera monitoring."
+        },
+        {
+            "name": "Bidybab",
+            "games": [
+                "Five Nights at Freddy's: Sister Location",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "Small, bald, pale humanoid animatronics resembling babies, with smooth grey eyes and simple metallic jointing.",
+            "mechanic": "In Night 2, they attempt to pull open the desk door under Circus Baby's advice; the player must hold the door shut against their pull. In Custom Night, Bidybab crawls through the middle air vent, requiring the player to close the vent door when audio cues indicate proximity."
+        },
+        {
+            "name": "Minireena",
+            "games": [
+                "Five Nights at Freddy's: Sister Location",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "Small, faceless wooden doll-like mannequins dressed in white tutus that accompany Ballora.",
+            "mechanic": "On Night 4, they scale the suit frame while the player must wind springlocks; the player must wiggle to shake them off. In Custom Night/UCN, they block the player's view by clustering over the screen or draining oxygen supplies."
+        },
+        {
+            "name": "Yenndo",
+            "games": [
+                "Five Nights at Freddy's: Sister Location",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A bare Funtime-style endoskeleton with glowing yellow eyes, closely resembling Funtime Freddy's underlying frame.",
+            "mechanic": "Appears in Custom Night sitting inside the office. Quickly drains the player's oxygen meter until the player opens the Security Monitor to make him vanish."
+        },
+        {
+            "name": "Lolbit",
+            "games": [
+                "Five Nights at Freddy's: Sister Location",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A orange, purple, and white color swap variant of Funtime Foxy missing an endoskeleton eye in some appearances.",
+            "mechanic": "Interrupts the player's screens with a visual 'PLEASE STAND BY' broadcast and loud sirens. The player must type 'L-O-L' on their physical/virtual keyboard to clear the screen."
+        },
+        {
+            "name": "Bonnet",
+            "games": [
+                "Five Nights at Freddy's: Sister Location",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A pink recolor of the Bon-Bon hand puppet with green eyes and a black bow tie.",
+            "mechanic": "Walks across the office screen from right to left in Custom Night/UCN. The player must click her nose to deactivate her before she reaches the left side and triggers a jumpscare."
+        },
+        {
+            "name": "Scrap Baby",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A heavily degraded, reconstructed version of Circus Baby with exposed wires, a massive claw replacing her right hand, roller skates, worn faceplates, and sharp metallic hair strands.",
+            "mechanic": "Featured in the salvage minigames where the player must monitor her reactions while playing audio prompts. In the main management phase, she stalks the vents; players must use motion detectors, audio lures, and turn off computer power/fan to keep her away."
+        },
+        {
+            "name": "Molten Freddy",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A chaotic tangle of metallic wires and endoskeletons (containing the remnants of Ennard, minus Circus Baby) topped with a dirty, rusted version of Funtime Freddy's mask with a orange/brown color palette.",
+            "mechanic": "Rescued during salvage minigames. During the night office tasks, he navigates the duct and vent system, making chuckling audio cues when getting close. Players must lure him away using the audio distraction tool."
+        },
+        {
+            "name": "Scraptrap (William Afton)",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A severely damaged, bone-exposed evolution of Springtrap with a missing right forearm (sharpened into a needle-like bone spike), a larger skull structure, and a heavily deteriorated suit frame.",
+            "mechanic": "Salvaged on Night 3. In the office phase, he moves rapidly through the vent system. He makes distinct noise cues when approaching; turning off office equipment and using audio lures prevents him from entering."
+        },
+        {
+            "name": "Lefty (Lure Encapsate Fuse Transport Extract)",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A matte-black bear animatronic modeled after Rockstar Freddy with a red top hat, bow tie, star on his chest, a missing left eye, and a red microphone held in his left hand. (Encloses The Puppet inside).",
+            "mechanic": "Purchasable in the catalog for $5 or salvaged on Night 4. Aggravated by high noise levels and temperature inside the office. Keeping office heat low and reducing noise prevents him from becoming active."
+        },
+        {
+            "name": "Rockstar Freddy",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A pristine brown bear animatronic with rosy cheeks, purple top hat and bow tie, a yellow star on his chest, and dual knee pads.",
+            "mechanic": "Purchasable pizzeria attraction. In UCN, he activates standing in the office periodically demanding 5 Faz-Coins; failure to pay or lower office heat with the heater results in his jumpscare."
+        },
+        {
+            "name": "Rockstar Bonnie",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A vibrant blue animatronic rabbit with star accents, pink rosy cheeks, dual knee pads, and holding a red-and-white guitar.",
+            "mechanic": "Purchasable catalog item. In UCN, he randomly appears in the office when active. The player must find his missing guitar across the camera network to make him disappear."
+        },
+        {
+            "name": "Rockstar Chica",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A bright yellow chicken animatronic with maracas, a bib reading 'LET'S ROCK!!!', blue eyes, and pink cheeks.",
+            "mechanic": "Purchasable stage attraction. In UCN, she approaches down either the left or right hall. The player must double-click the 'Wet Floor' sign to place it on the side she is approaching from to scare her away."
+        },
+        {
+            "name": "Rockstar Foxy",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A pirate fox with an accordion, a wooden leg, an eyepatch over his right eye, a green parrot perched on his shoulder, and a star on his chest.",
+            "mechanic": "Purchasable catalog item. In UCN, his parrot flies across the screen. Clicking the parrot summons Rockstar Foxy, who may offer a helpful boost (restoring power, lowering heat) or jumpscare the player if he's in a bad mood."
+        },
+        {
+            "name": "Music Man",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A creepy spider-like humanoid featuring six segmented legs, rosy cheeks, a pink top hat, glowing blue eyes, and holding cymbals.",
+            "mechanic": "Purchasable high-tier attraction. In UCN, he sits behind the player in the dark. High noise levels cause him to clash his cymbals faster and faster until he turns around and jumpscares."
+        },
+        {
+            "name": "Funtime Chica",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A lavish white and pink chicken animatronic with articulated faceplates, a speaker on her chest, lipstick, and a pink cupcake companion.",
+            "mechanic": "The most expensive catalog item ($71,000). In UCN, she doesn't attack directly but appears on screen with flashbulbs and camera disorientations to distract the player."
+        },
+        {
+            "name": "Helpy",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A miniature, cute version of Funtime Freddy wearing a black top hat and bow tie with bright pink cheek circles.",
+            "mechanic": "Appears in management minigames and testing products. In UCN, he sits on top of the office computer desk; the player must click him quickly to prevent him from blowing an airhorn and making noise."
+        },
+        {
+            "name": "Dee Dee",
+            "games": [
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A small, human-like animatronic girl with a yellow-and-pink button-down shirt, propeller hat, rosy cheeks, and green eyes.",
+            "mechanic": "Appears randomly in the office while singing her theme song. She randomly adds a new animatronic to the night's active roster at an undisclosed difficulty setting, or summons one of the exclusive secret roster animatronics."
+        },
+        {
+            "name": "XOR (Shadow Dee Dee)",
+            "games": [
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A monochromatic, pitch-black shadow version of Dee Dee with glowing white eyes and teeth.",
+            "mechanic": "Appears exclusively during 50/20 mode (or very rarely in normal play). Forces all secret roster animatronics (Shadow Bonnie, Plushtrap, Nightmare Chica, Bonnet, Minireenas, Lolbit) into the night at maximum difficulty."
+        },
+        {
+            "name": "Fredbear",
+            "games": [
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "The original golden bear animatronic with a bright purple bow tie and top hat, holding a metallic microphone.",
+            "mechanic": "Summoned via a specific secret sequence: set Golden Freddy's AI to 1, buy a Deathcoin for 10 Faz-Coins, wait for Golden Freddy to enter the office, and use the Deathcoin on him to trigger Fredbear's jumpscare."
+        },
+        {
+            "name": "RWQFSFASXC (Shadow Bonnie)",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's AR: Special Delivery",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A jet-black silhouette of Toy Bonnie with glowing white eyes and prominent white teeth.",
+            "mechanic": "Summoned by Dee Dee or XOR. Causes the entire office screen to turn completely black for 10 seconds, obscuring doors, vent controls, and desk lights."
+        },
+        {
+            "name": "Old Man Consequences",
+            "games": [
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A simplified, red 8-bit silhouette of a crocodilian or human figure sitting beside a lake holding a fishing rod.",
+            "mechanic": "Interrupts gameplay with a minigame prompt featuring a red fish swimming past an indicator. The player must press 'C' on their keyboard at the exact moment the fish crosses the line, or their monitor desk controls will be locked out for a short period."
+        },
+        {
+            "name": "El Chip",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A festive Mexican-themed beaver animatronic wearing a sombrero, holding a guitar, and featuring a green chest star.",
+            "mechanic": "Does not attack directly. Periodically interrupts the player's screen with a full-screen, unskippable colorful advertisement for 'El Chip's Fiesta Buffet' that must be manually closed by pressing Enter or clicking 'Skip'."
+        },
+        {
+            "name": "Trash and the Gang",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A collection of handmade makeshift animatronics made from trash cans, plastic buckets, broomsticks, and paper plates (Bucket Bob, No. 1 Crate, Mr. Can-do).",
+            "mechanic": "Acts as visual and auditory distractions. No. 1 Crate whispers creepy voice lines, Bucket Bob pops out with loud sound effects, and Mr. Can-do obscures camera views."
+        },
+        {
+            "name": "Phone Guy",
+            "games": [
+                "Five Nights at Freddy's",
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "Non-physical character; represented by a vintage red rotary telephone icon in UCN.",
+            "mechanic": "Calls the office phone randomly during the night. The phone ringing generates massive amounts of noise (aggravating noise-sensitive animatronics). The player must locate the 'Mute Button' on screen and click it before the call finishes."
+        },
+        {
+            "name": "Glitchtrap (Anomaly)",
+            "games": [
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A tall, sinister golden-yellow fabric costume rabbit with purple waist vest, bow tie, bright green eyes, and a stitched, stitched-together handmade cloth aesthetic.",
+            "mechanic": "Acts as the digital manifestation of William Afton within the VR game code. Appears in the central hub room, getting closer and more distinct as the player collects cassette tapes. In the finale, he attempts to merge with/possess the player."
+        },
+        {
+            "name": "Dreadbear",
+            "games": [
+                "Five Nights at Freddy's VR: Help Wanted (Curse of Dreadbear DLC)"
+            ],
+            "appearance": "A colossal, Frankenstein's monster-inspired green bear animatronic with exposed brain tissue, massive stitches, jagged teeth, and glowing yellow eyes.",
+            "mechanic": "Featured prominently in the 'Curse of Dreadbear' DLC. In his main minigame level, he walks toward the player's station while the player must perform brain surgery/recalibration on him before he reaches the barrier."
+        },
+        {
+            "name": "Grimm Foxy",
+            "games": [
+                "Five Nights at Freddy's VR: Help Wanted (Curse of Dreadbear DLC)"
+            ],
+            "appearance": "A terrifying Jack-o'-lantern themed fox animatronic with molten orange cracks, glowing fire from within his chest frame, long sharp claws, and a hot iron hook.",
+            "mechanic": "Stalks the player in a corn maze minigame ('Corn Maze'). The player must navigate the maze to collect keys while avoiding his sightlines and hiding in cardboard cutouts when he approaches."
+        },
+        {
+            "name": "Jack-O-Bonnie",
+            "games": [
+                "Five Nights at Freddy's 4 (Halloween Edition)",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted"
+            ],
+            "appearance": "A Halloween variant of Nightmare Bonnie with vibrant glowing orange interior heat, charred orange-brown skin, and missing his eyes (replaced with orange flames).",
+            "mechanic": "Featured in the VR Night Terrors mode. Approached down the hallway in a modified FNAF 4-style environment where players must use door controls and flashlight management to ward off heat-based attacks."
+        },
+        {
+            "name": "Jack-O-Chica",
+            "games": [
+                "Five Nights at Freddy's 4 (Halloween Edition)",
+                "Five Nights at Freddy's World",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's AR: Special Delivery"
+            ],
+            "appearance": "A fiery orange variant of Nightmare Chica glowing from within, holding a carved, glowing Jack-o'-lantern instead of a cupcake.",
+            "mechanic": "Appears in VR Parts & Service and Night Terrors modes. Players must manage room temperature using doors and fans; if the room gets too hot, she becomes aggressive and attacks."
+        },
+        {
+            "name": "Plushkin (PlushBaby)",
+            "games": [
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "Small, terrifying variants of Circus Baby with makeshift cloth/ceramic body styling, glowing eyes, and sharp features.",
+            "mechanic": "Featured in the 'PlushBaby' minigames. Three small PlushBabies spawn in dark rooms and move fast; the player must flash the flashlight at them continuously before the battery runs out to force them to retreat."
+        },
+        {
+            "name": "Captain Foxy",
+            "games": [
+                "Five Nights at Freddy's VR: Help Wanted (Curse of Dreadbear DLC)"
+            ],
+            "appearance": "A stylized pirate captain version of Classic Foxy wearing a full pirate outfit, captain hat, shoulder bird accessory, and wielding a cutlass.",
+            "mechanic": "Acts as the final boss in the 'Pirate Ride' dark ride minigame. Players shoot targets from a moving cart while Captain Foxy attacks from surrounding pirate ship sets."
+        },
+        {
+            "name": "Glamrock Freddy",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "An 80s glam-rock themed brown bear featuring cyan face paint, red and blue shoulder pads, a blue-striped black top hat, an earring, and an openable stomach hatch cavity.",
+            "mechanic": "Acts as the main ally to Gregory. Gregory can climb inside his chest cavity to hide from other animatronics, bypass security gates, and use his battery power to navigate dangerous areas. Can be upgraded with voice, eyes, and claw components."
+        },
+        {
+            "name": "Glamrock Chica",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A 1980s workout/rock-themed white chicken wearing pink leg warmers, a green bow, a pink leotard, holding a pink guitar. Driven by a gluttonous addiction to garbage and Monty Mystery Mix.",
+            "mechanic": "Patrols zones hunting the player. Can be lured away using garbage cans or Monty Mystery Mix traps. After decommissioning her, Gregory obtains her Voice Box to upgrade Glamrock Freddy to stun animatronics."
+        },
+        {
+            "name": "Roxanne Wolf (Roxy)",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A self-absorbed grey wolf animatronic with long white hair, green eyes, purple tiger-striped leg warmers, lipstick, and a keytar.",
+            "mechanic": "Chases the player upon visual contact and uses wall-jumping leaps in Roxy Raceway. After decommissioning her, her Roxy Eyes are salvaged for Glamrock Freddy, allowing him to see hidden items through walls."
+        },
+        {
+            "name": "Montgomery Gator (Monty)",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A muscular green alligator animatronic with a red mohawk, star-shaped yellow sunglasses, purple shoulder pads, green reptilian scales, and a bass guitar.",
+            "mechanic": "Highly aggressive, immune to the Fazerblaster blind effect when wearing sunglasses, and capable of leaping long distances. After decommissioning him, his heavy claws are given to Glamrock Freddy to break locked chain-link gates."
+        },
+        {
+            "name": "Sun / Moon (The Daycare Attendant)",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A dual-persona jester animatronic. 'Sun' features a bright yellow sun-ray head with stylized overalls; 'Moon' has a dark blue/night sky theme with a sleep cap, glowing red eyes, and pants adorned with stars.",
+            "mechanic": "In light environments, Sun acts as a bouncy daycare handler who keeps Gregory from leaving. When lights turn off (or on the hour), Moon emerges to actively hunt Gregory. Moon can be repelled by distracting Sun with knocked-over toy towers or resetting generators."
+        },
+        {
+            "name": "DJ Music Man",
+            "games": [
+                "Five Nights at Freddy's: Security Breach"
+            ],
+            "appearance": "A gargantuan spider-like animatronic wearing headphones, featuring six massive limbs, illuminated LED markings, and integrated DJ turntable equipment.",
+            "mechanic": "Enters a chase sequence in the Fazcade area when Gregory resets breakers. Crawls through walls and hallways while pursuing the player to block access to circuit switches."
+        },
+        {
+            "name": "Vanny (Vanessa)",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's VR: Help Wanted"
+            ],
+            "appearance": "A human wearing a full-body patchwork white rabbit costume with large red glowing mesh eyes and stitched cloth ears.",
+            "mechanic": "Appears during scripted narrative sequences and on the hour when power dims. Causes visual distortion/static to blur Gregory's screen when she gets near."
+        },
+        {
+            "name": "Glamrock Endoskeletons",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "Raw, unadorned silver metal endoskeleton frames with red internal wiring and glowing eyes, found in the basement Endo Nursery.",
+            "mechanic": "Operates under 'red light, green light' / weeping angel mechanics. They only move toward the player when the player is not looking directly at them."
+        },
+        {
+            "name": "S.T.A.F.F. Bots",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "Generic, mass-produced wheeled white security/service robots with digital face screens, wearing various outfit accessories (security hats, server bowties, comedy hats).",
+            "mechanic": "Patrol specified paths with flashlights. Detecting Gregory triggers an alarm siren and summons a main Glamrock animatronic to that exact position."
+        },
+        {
+            "name": "The Blob",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's: Security Breach - RUIN"
+            ],
+            "appearance": "A colossal, tangled mass of black wires, molten metal, and residual animatronic parts (including Circus Baby's mask, Classic Chica, Bonnie, and the Puppet's mask).",
+            "mechanic": "Encountered in the underground remains of Freddy Fazbear's Pizza Place. Acts as an environmental hazard/boss encounter attacking anything near its lair."
+        },
+        {
+            "name": "Burntrap",
+            "games": [
+                "Five Nights at Freddy's: Security Breach"
+            ],
+            "appearance": "A heavily scorched, skeletal endoskeleton fused with flesh and residual parts of a damaged Springtrap suit.",
+            "mechanic": "Serves as the boss of the true/burn ending inside the underground facility. Attempts to hack Glamrock Freddy via security monitors while sending other animatronics through vents."
+        },
+        {
+            "name": "M.X.E.S. (Security System)",
+            "games": [
+                "Five Nights at Freddy's: Security Breach - RUIN"
+            ],
+            "appearance": "A terrifying digital entity appearing as a hulking, glowing blue-and-cyan glitching rabbit with distorted digital lines and tendrils.",
+            "mechanic": "Operates inside the V.A.N.N.I. AR realm. When Cassie approaches security nodes or stays in the AR mask realm too long, M.X.E.S. spawns, emitting a loud siren and pinging Cassie's physical location to nearby ruined animatronics."
+        },
+        {
+            "name": "Ruined Glamrock Freddy (Prototype)",
+            "games": [
+                "Five Nights at Freddy's: Security Breach - RUIN"
+            ],
+            "appearance": "A headless, heavily damaged variant of Glamrock Freddy with 'PROTOTYPE' stamped on his foot, exposed chest cavity, jagged wires, and a gaping stomach mouth.",
+            "mechanic": "Blindly wanders Fazer Blast. Responds to sound cues and footsteps; if he detects Cassie walking nearby, he lunges forward to attack."
+        },
+        {
+            "name": "Ruined Chica",
+            "games": [
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A decaying, shattered version of Glamrock Chica with missing beak casing, exposed metallic vocal cords, melted exterior plastic, and hanging wiring.",
+            "mechanic": "Patrols dark corridors making distorted voice screeching. Can be temporarily deactivated or bypassed by fixing her Voice Box or using AR mask interactions."
+        },
+        {
+            "name": "Ruined Roxy",
+            "games": [
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A blind, heavily battered version of Roxanne Wolf with her face casing torn off, exposed wire skull, missing eye sockets, and faded fur.",
+            "mechanic": "Relies entirely on sound due to missing her eyes. Reacts to Cassie's footsteps, running directly toward noises. Cassie must crouch and move silently to sneak past her."
+        },
+        {
+            "name": "Ruined Monty",
+            "games": [
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "Reduced to a torso-only endoskeleton frame with melted green scales, missing lower jaw casing, and legs severed entirely.",
+            "mechanic": "Crawls rapidly across flooded water zones and floor surfaces. Lunges from beneath water or low spaces to attack Cassie if she steps into his zone."
+        },
+        {
+            "name": "The Mimic",
+            "games": [
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "An ancient, mismatched endoskeleton assembled from various era-specific animatronic components, featuring sharp metal hands and a sinister human-like skull frame.",
+            "mechanic": "The primary antagonist trapped beneath the Pizzaplex. Uses a walkie-talkie audio filter to mimic Gregory's voice and trick Cassie into disabling M.X.E.S. nodes to free it, leading to a high-speed chase sequence in the finale."
+        },
+        {
+            "name": "Ruined Eclipse",
+            "games": [
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A fused amalgamation of Sun and Moon with a split half-sun, half-moon face casing, damaged clothing, and glowing orange/blue eyes.",
+            "mechanic": "Acts as a peaceful character once rebooted. Cassie must assist in resetting his internal system to merge Sun and Moon, enabling Eclipse to safely guide her out of the daycare."
+        },
+        {
+            "name": "Mask Bot",
+            "games": [
+                "Five Nights at Freddy's: Security Breach - RUIN"
+            ],
+            "appearance": "A modified S.T.A.F.F. Bot wearing a damaged Vanni rabbit mask over its face screen.",
+            "mechanic": "Jumpscares Cassie at the start of the game to forcibly equip her with the V.A.N.N.I. AR Mask, unlocking access to the AR world layer."
+        },
+        {
+            "name": "Carnie",
+            "games": [
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A carnival-themed variant of Lefty/Rockstar Freddy wearing a red-and-white striped carnival vest, a small top hat, and running carnival booth games.",
+            "mechanic": "Hosts the carnival minigames (such as 'Fazer Blast' and target-shooting games). Voice-prompts the player during gameplay and tallies points, triggering jumpscares if target quotas are missed."
+        },
+        {
+            "name": "Jackie",
+            "games": [
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A vintage jack-in-the-box animatronic featuring a creepy porcelain-style clown face, sharp teeth, and a spring-loaded torso attached to a wooden box.",
+            "mechanic": "Appears as a primary antagonist in secret minigames. Moves toward the player when the music box plays out or when hidden sequences are triggered, requiring fast object manipulation to survive."
+        },
+        {
+            "name": "Glamrock Endo (HW2 VR Variant)",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "Bare metal endoskeletons with red wire highlights and glowing red ocular lenses, featured in first-person VR maintenance zones.",
+            "mechanic": "Featured in the 'Endo Warehouse' minigame. Moves only when the player is not looking at them (Weeping Angel mechanics). The player must use flashlights and constant line-of-sight management while flipping switches."
+        },
+        {
+            "name": "Ruined DJ Music Man (VR)",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A massive, damaged six-legged spider-like robot wearing giant DJ headphones, operating inside a claustrophobic VR arcade set.",
+            "mechanic": "Featured in DJ booth/arcade maintenance minigames. The player must repair audio cables, calibrate mixer dials, and press buttons on time without making wrong inputs that draw his attention."
+        },
+        {
+            "name": "Faz-Technician Staff Bots",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "Wheeled humanoid S.T.A.F.F. bots outfitted in various workplace roles (chefs, makeup artists, technicians, first-aid responders).",
+            "mechanic": "Acts as interactive test subjects or hazards in various simulation jobs (e.g., applying makeup to Roxy, serving food at El Chip's, performing surgery), jumpscaring the player if tasks are performed incorrectly."
+        },
+        {
+            "name": "Mystic Hippo",
+            "games": [
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A fortune-teller animatronic booth shaped like Mr. Hippo inside a glass cabinet, wearing a turban and holding a crystal ball.",
+            "mechanic": "Dispenses cryptic fortunes, easter egg hints, and collectible cards throughout the game hub when fed Faz-Tokens."
+        },
+        {
+            "name": "The Mimic",
+            "games": [
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2",
+                "Five Nights at Freddy's: Secret of the Mimic"
+            ],
+            "appearance": "An early vintage endoskeleton constructed by Edwin Murray with long, thin limbs, piston joints, a skeletal metal face frame, and flexible casing meant to fit inside various fabric mascot costumes.",
+            "mechanic": "Serves as the primary shape-shifting antagonist. Pursues the player through Murray's Costume Manor by copying voices, disguising itself inside different mascot suits (like the White Tiger), and adapting to player behavior based on observed routines."
+        },
+        {
+            "name": "Jackie (Jackie-in-the-Box)",
+            "games": [
+                "Five Nights at Freddy's VR: Help Wanted 2",
+                "Five Nights at Freddy's: Secret of the Mimic"
+            ],
+            "appearance": "A tall, terrifying vintage clown/jester animatronic popping out of a large painted wooden box, featuring sharp porcelain-style teeth, long flexible arms, and painted face makeup.",
+            "mechanic": "Operates on wind-up music box mechanisms and surprise ambushes in carnival/workshop zones. The player must manage gear handles or complete puzzle inputs before her music plays out to avoid an instant jumpscare attack."
+        },
+        {
+            "name": "Big Top",
+            "games": [
+                "Five Nights at Freddy's: Secret of the Mimic"
+            ],
+            "appearance": "A bulky, circus-themed mascot animatronic styled like a carnival tent with massive, exaggerated limbs and a grinning facial display.",
+            "mechanic": "Blocks doorways and main pathways. Acts as a heavy physical obstacle that requires environmental distraction or power redirect puzzles to clear out of the way."
+        },
+        {
+            "name": "Nurse Dollie",
+            "games": [
+                "Five Nights at Freddy's: Secret of the Mimic"
+            ],
+            "appearance": "A vintage medical doll animatronic with crackled porcelain skin, a retro nurse cap, cloth dress, and wide staring glass eyes.",
+            "mechanic": "Stalks infirmary and workshop sections. Moves when the player turns their back or breaks line of sight, forcing careful positioning while completing diagnostic tasks."
+        },
+        {
+            "name": "The White Tiger (Tiger Rock)",
+            "games": [
+                "Five Nights at Freddy's: Secret of the Mimic"
+            ],
+            "appearance": "A plush, vintage white tiger mascot suit with green eyes, black stripes, and fabric suit casing used as an early vessel for the Mimic.",
+            "mechanic": "Appears throughout the manor as a roaming stalker entity. The player must hide in closets or under workbenches to avoid being spotted when its heavy footstep audio plays."
+        },
+        {
+            "name": "Prototype Fredbear & Spring Bonnie",
+            "games": [
+                "Five Nights at Freddy's: Secret of the Mimic"
+            ],
+            "appearance": "Early 1970s prototype springlock suit frames with rough yellow fabric, exposed internal lock mechanisms, and primitive endoskeleton joints.",
+            "mechanic": "Static hazards and interactive lore objects within the Murray factory floor. Handled during assembly line puzzles where missteps trigger springlock failures."
+        },
+        {
+            "name": "Michael Afton",
+            "games": [
+                "Five Nights at Freddy's",
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's: Sister Location",
+                "Freddy Fazbear's Pizzeria Simulator"
+            ],
+            "appearance": "Represented through first-person perspective, minigame sprites (purple-skinned rotting body in Sister Location), and silhouettes/voices.",
+            "mechanic": "The primary player character across most games. Manages doors, lights, security monitors, maintenance panels, audio lures, and springlocks to survive nights."
+        },
+        {
+            "name": "William Afton (Purple Guy)",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's 4",
+                "Five Nights at Freddy's: Sister Location",
+                "Freddy Fazbear's Pizzeria Simulator"
+            ],
+            "appearance": "Depicted in 8-bit minigames as a purple human figure with glowing white eyes, sometimes holding tools or wearing a security badge.",
+            "mechanic": "Central antagonist who destroyed the original animatronics, lured the missing children, and died inside the Spring Bonnie suit to become Springtrap/Scraptrap."
+        },
+        {
+            "name": "Henry Emily (Cassette Man)",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator"
+            ],
+            "appearance": "Non-physical character represented through voice recordings on cassettes and blueprints.",
+            "mechanic": "Architect of the original animatronics and Fazbear Entertainment co-founder. Guides the player during the salvage/management phases and triggers the final fire in FFPS to release the trapped spirits."
+        },
+        {
+            "name": "Gregory",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's: Security Breach - RUIN"
+            ],
+            "appearance": "A young boy with brown hair, wearing a blue striped shirt, denim shorts, and light-up sneakers.",
+            "mechanic": "The main playable protagonist in Security Breach. Evades glamrock animatronics using stealth, climbing inside Glamrock Freddy, using the Fazerblaster/Faz-Cam, and completing area objectives."
+        },
+        {
+            "name": "Cassie",
+            "games": [
+                "Five Nights at Freddy's: Security Breach - RUIN"
+            ],
+            "appearance": "A young girl with dark pigtails wearing a red jacket, jeans, and a Faz-Wrench maintenance tool.",
+            "mechanic": "The protagonist of RUIN. Uses a Faz-Wrench to solve electrical wiring puzzles and equips the V.A.N.N.I. AR mask to shift between the physical world and the digital realm."
+        },
+        {
+            "name": "Vanessa (Security Guard)",
+            "games": [
+                "Five Nights at Freddy's: Security Breach"
+            ],
+            "appearance": "A blonde woman wearing a white-and-black Fazbear Security Guard uniform.",
+            "mechanic": "Patrols the Mega Pizzaplex. Spotting Gregory results in her catching him, detaining him, or triggering Vanny/animatronic alerts."
+        },
+        {
+            "name": "The Crying Child (Bite of '83 Victim)",
+            "games": [
+                "Five Nights at Freddy's 4"
+            ],
+            "appearance": "A small boy with black hair, wearing a black-and-grey striped shirt and blue pants, seen crying in 8-bit minigames.",
+            "mechanic": "Protagonist of the FNAF 4 minigames who suffers constant torment from his older brother, ultimately suffering a fatal head injury inside Fredbear's jaw."
+        },
+        {
+            "name": "Missing Children (Charlie, Cassidy, Susie, Fritz, Gabriel, Jeremy)",
+            "games": [
+                "Five Nights at Freddy's 1",
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's 6"
+            ],
+            "appearance": "Depicted as ghost-like ghostly white children in 8-bit minigames and lore cutscenes.",
+            "mechanic": "Their souls possess the main classic animatronics (Puppet, Golden Freddy, Chica, Foxy, Freddy, Bonnie) following the Missing Children's Incident, seeking retribution against William Afton."
+        },
+        {
+            "name": "Phone Dude",
+            "games": [
+                "Five Nights at Freddy's 3"
+            ],
+            "appearance": "Non-physical; voice-only caller.",
+            "mechanic": "Calls the player on Nights 1 and 2 of FNAF 3 to explain the mechanics of Fazbear's Fright, audio lures, and system reboot panels."
+        },
+        {
+            "name": "Shadow Freddy",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Five Nights at Freddy's 4"
+            ],
+            "appearance": "A dark purple recolor of Withered/Classic Freddy with glowing white eyes and teeth.",
+            "mechanic": "Appears slouched in Parts & Service in FNAF 2. In FNAF 3 minigames, he leads classic animatronics one-by-one to the safe room where William Afton dismantles them."
+        },
+        {
+            "name": "JJ (JayJay)",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "A magenta-and-blue variant of Balloon Boy with pink/purple eyes.",
+            "mechanic": "Hides under the desk in FNAF 2 as a harmless easter egg. In UCN, she crawls through the right vent; if she enters, she disables all door controls for a short time."
+        },
+        {
+            "name": "Endo-01 & Endo-02",
+            "games": [
+                "Five Nights at Freddy's 1",
+                "Five Nights at Freddy's 2"
+            ],
+            "appearance": "Bare metal endoskeleton frames with blue/red wiring and glowing eyes.",
+            "mechanic": "Endo-01 sits in Backstage (FNAF 1). Endo-02 appears in the Music Box box or Left Vent (FNAF 2) as rare visual easter eggs."
+        },
+        {
+            "name": "Paperpals (Paper Buddy)",
+            "games": [
+                "Five Nights at Freddy's 2",
+                "Five Nights at Freddy's 3",
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night"
+            ],
+            "appearance": "Simple paper plate crafts depicting Freddy, Bonnie, and a clown/humanoid figure.",
+            "mechanic": "Mysteriously teleports from the Party Room wall directly into the Office in FNAF 2 and UCN."
+        },
+        {
+            "name": "Nightmarionne",
+            "games": [
+                "Five Nights at Freddy's 4 (Halloween)",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted",
+                "Five Nights at Freddy's: Security Breach"
+            ],
+            "appearance": "A skeletal, jet-black nightmare version of the Puppet with elongated fingers, glowing white eyes, and exposed ribs.",
+            "mechanic": "Replaces Nightmare in FNAF 4 Halloween Edition. In UCN, his tentacles move across the screen; keeping the mouse cursor over his body triggers an immediate jumpscare."
+        },
+        {
+            "name": "Nightmare Balloon Boy",
+            "games": [
+                "Five Nights at Freddy's 4 (Halloween)",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted"
+            ],
+            "appearance": "A grotesque, oversized-jaw version of Balloon Boy with long needle teeth and glowing red eyes.",
+            "mechanic": "Sits slouched in 'Fun with Balloon Boy'. The player must shine the light when he moves, freezing him on the 'X' on the floor."
+        },
+        {
+            "name": "Nightmare Mangle",
+            "games": [
+                "Five Nights at Freddy's 4 (Halloween)",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted"
+            ],
+            "appearance": "A shredded, skeletal nightmare version of Mangle emitting loud radio static.",
+            "mechanic": "Replaces Nightmare Foxy in FNAF 4. In UCN, enters via the entrance door and demands buying its plushie from the Prize Corner."
+        },
+        {
+            "name": "Electrobab",
+            "games": [
+                "Five Nights at Freddy's: Sister Location (Custom Night)"
+            ],
+            "appearance": "A Bidybab variant with glowing yellow flashing eyes and electric sparks.",
+            "mechanic": "Appears on CAM 03 or CAM 04 and steadily drains power. The player must give it a controlled shock to deactivate it."
+        },
+        {
+            "name": "Candy Cadet",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's: Security Breach - RUIN",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A retro red-and-white robot dispenser with light-up coin slots, holding candy trays.",
+            "mechanic": "Purchasable pizzeria attraction. Tells ominous, lore-heavy stories about five things being combined into one when fed coins."
+        },
+        {
+            "name": "Security Puppet",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator"
+            ],
+            "appearance": "A sleek, dark Puppet variant with a single white stripe, a blue/pinstripe party hat, and a glowing face light.",
+            "mechanic": "Purchasable attraction featuring a minigame where the player must monitor a box to protect a child wearing a green wristband (revealing Charlie Emily's death)."
+        },
+        {
+            "name": "Mediocre Melodies (Happy Frog, Pigpatch, Mr. Hippo, Nedd Bear, Orville Elephant)",
+            "games": [
+                "Freddy Fazbear's Pizzeria Simulator",
+                "Ultimate Custom Night",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "Budget-line animatronics featuring a green frog, pink pig, purple hippo, brown bear with googly eyes, and an orange elephant wearing top hats/costumes.",
+            "mechanic": "Purchasable stage performers in FFPS. In UCN, they crawl through the duct system toward the office; players must use the heater or audio lure to turn them away."
+        },
+        {
+            "name": "Map Bot & Wet Floor Bots",
+            "games": [
+                "Five Nights at Freddy's: Security Breach",
+                "Five Nights at Freddy's: Security Breach - RUIN"
+            ],
+            "appearance": "S.T.A.F.F. Bot variants; Map Bot holds maps, while Wet Floor Bots are small caution-sign robots with wheels.",
+            "mechanic": "Map Bot jumpscares the player unexpectedly to force-feed a map. Wet Floor Bots act as collectibles/deactivation targets in RUIN to appease Ruined Roxy."
+        },
+        {
+            "name": "The Princess",
+            "games": [
+                "Five Nights at Freddy's: Security Breach (Princess Quest)",
+                "Five Nights at Freddy's VR: Help Wanted 2"
+            ],
+            "appearance": "A golden, pixelated female sprite holding a lantern inside arcade cabinets.",
+            "mechanic": "Protagonist of the Princess Quest minigames who light torches, fights shadow creatures, and unlocks the door to purge Glitchtrap/Vanny's control."
+        }
+    ]
+}

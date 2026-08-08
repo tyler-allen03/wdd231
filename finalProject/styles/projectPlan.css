@@ -4,6 +4,68 @@
     box-sizing: border-box;
 }
 
+/* *************** header stuff ******************** */
+header {
+    display: grid;
+    grid-template-columns: auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+}
+
+/* ham nav */
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #39ff14;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+/* NAVIGATION */
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: #39ff14;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation li.current {
+    background-color: #301934;
+}
+
+.navigation a:hover {
+    background-color: purple;
+    color: white;
+}
+
 body {
     max-width: 900px;
     margin: 0 auto;
@@ -27,6 +89,7 @@ section {
 
     p {
         color: #FFA8DD;
+        padding: 10px;
     }
     .questionDiv {
         display: flex;
@@ -35,7 +98,6 @@ section {
             border: 1px #aa00ff solid;
             border-radius: 15px;
             margin: 10px;
-            padding: 10px;
         }
     }
 }
@@ -45,3 +107,73 @@ section {
     padding: 10px;
     border: #aa00ff solid 1px;
 }
+
+#mainForm {
+    margin: 10px;
+
+    fieldset {
+        border: solid #aa00ff 1px;
+        margin-top: 1rem;
+        padding: 1rem;
+
+        legend {
+            font-size: larger;
+        }
+
+        label {
+            text-align: left;
+            font-size: larger;
+            display: block;
+            padding-top: 1rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            max-width: 350px;
+            font-size: 2rem;
+            border: black solid 2px;
+            border-radius: 10px;
+        }
+
+        input:required {
+            border-right-width: 10px;
+            border-right-color: red;
+        }
+
+        input:focus {
+            border-right-width: 10px;
+            border-right-color: black;
+            outline: none;
+        }
+
+        input:required:valid {
+            border-right-width: 10px;
+            border-right-color: green;
+        }
+
+
+    }
+
+    input[type="submit"] {
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin: 10px 5%;
+        width: 90%;
+    }
+
+    input[type="submit"]:hover {
+        background-color: purple;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+
