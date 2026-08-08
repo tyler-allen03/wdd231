@@ -11,34 +11,48 @@ navbutton.addEventListener('click', () => {
 })
 
 
-const animatronicUrl = 'https://tyler-allen03.github.io/wdd231/finalProject/data/animatronics.json';
+const locationUrl = 'https://tyler-allen03.github.io/wdd231/finalProject/data/locations.json';
 const cards = document.querySelector('#locationsContainer');
 
 
-async function getAnimatronicData() {
-    const response = await fetch(animatronicUrl);
+async function getLocationData() {
+    const response = await fetch(locationUrl);
     const data = await response.json();
-    // console.table(data.animatronics);
-    displayAnimatronics(data.animatronics);
+    console.table(data.fnaf_locations);
+    displayLocations(data.fnaf_locations);
 
 }
 
-getAnimatronicData();
+getLocationData();
 
 
 
-const displayAnimatronics = (animatronics) => {
-    animatronics.forEach(animatronic => {
+const displayLocations = (locations) => {
+    locations.forEach(location => {
         let card = document.createElement("section");
+        let name = document.createElement("h3");
+        let map = document.createElement("img");
+        let lore = document.createElement("p");
+        let player = document.createElement('p');
+        let mechanic = document.createElement("p");
 
-        card.innerHTML = `
-        <h3>${animatronic.name}</h3>
-        <p><strong>Appearance:</strong> ${animatronic.appearance}</p>
-        <p><strong>Mechanic:</strong> ${animatronic.mechanic}</p>
-        <h4>Featured Games:</h4>
-        <ul>
-            ${animatronic.games.map(game => `<li>${game}</li>`).join('')}
-         </ul>`
+        name.textContent = location.location;
+        lore.textContent = location.lore_significance;
+        player.textContent = location.why_player_is_there;
+        mechanic.textContent = location.gameplay_mechanics;
+
+
+        map.setAttribute("src", location.image);
+        map.setAttribute("alt", `The Logo for ${member.name}`);
+        map.setAttribute("loading", "lazy");
+        map.setAttribute("width", "auto");
+        map.setAttribute("height", "100");
+
+
+        card.appendChild(name);
+        card.appendChild(lore);
+        card.appendChild(player);
+        card.appendChild(mechanic);
 
         cards.appendChild(card);
 
