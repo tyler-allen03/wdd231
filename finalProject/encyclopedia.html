@@ -8,6 +8,7 @@
     <meta name="description" content="This is the Encyclopedia page for the WDD231 courses final project.">
     <meta name="author" content="Tyler Allen">
     <link rel="stylesheet" href="styles/projectPlan.css">
+    <link rel="stylesheet" href="styles/projectPlan-large.css">
     <script src="scripts/encyclopedia.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,6 +35,11 @@
         <div id="characterContainer"></div>
         <section>
             <p>Did I miss anyone? Let me know here!</p>
+            <button id="dialogBTN">Disclaimer and Reminder</button>
+            <dialog id="disclaimBOX">
+                <div></div>
+                <button id="closeBTN">Close</button>
+            </dialog>
             <form method="get" action="thankyou.html" id="mainForm">
                 <fieldset>
                     <legend>Let me know who I missed</legend>
@@ -59,6 +65,7 @@
     <footer>
         <p>&copy;<span id="currentyear"></span> | Tyler Allen | Missouri</p>
         <p id="lastModified"></p>
+        <p>The video documentation can be found <a href="https://youtu.be/ct4iOAdInmI">here</a></p>
     </footer>
 </body>
 

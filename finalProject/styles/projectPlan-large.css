@@ -1,0 +1,62 @@
+@media only screen and (min-width: 38rem) {
+
+    header,
+    main,
+    nav,
+    footer,
+    .headNav {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        border-bottom: solid 1px #eee;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    .headNav {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .homeDIV {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+
+        .locationOverview {
+            grid-column: span 2;
+        }
+    }
+
+    #characterContainer, #locationsContainer {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 400px);
+        gap: 1rem;
+    }
+
+    #mainForm {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+}

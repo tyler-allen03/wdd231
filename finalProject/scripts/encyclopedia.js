@@ -16,10 +16,15 @@ const cards = document.querySelector('#characterContainer');
 
 
 async function getAnimatronicData() {
-    const response = await fetch(animatronicUrl);
-    const data = await response.json();
-    // console.table(data.animatronics);
-    displayAnimatronics(data.animatronics);
+    try {
+        const response = await fetch(animatronicUrl);
+        const data = await response.json();
+        console.table(data.animatronics);
+        displayAnimatronics(data.animatronics);
+    } catch (error) {
+        console.log(error);
+    }
+
 
 }
 
@@ -47,3 +52,20 @@ const displayAnimatronics = (animatronics) => {
 
 
 
+const dialogBox = document.querySelector("#disclaimBOX");
+const dialogBoxText = document.querySelector("#disclaimBOX div");
+const closeBTN = document.querySelector("#closeBTN");
+const dialogBTN = document.querySelector("#dialogBTN")
+
+dialogBTN.addEventListener("click", () => {
+    dialogBoxText.innerHTML = `
+    <h3>Disclaimer</h3>
+    <p>The suggestions you make here are not gaurunteed and will be reviewed before being implamented into the system.</p>
+    <h3>Reminder</h3>
+    <p>Certain characters are not going to be added to the list as they are not really relevant to the lore. Such characters would be Twisted Wolf, as he is only present in the twisted ones novel.</p>`;
+    dialogBox.showModal();
+})
+
+closeBTN.addEventListener("click", () => {
+    dialogBox.close();
+});

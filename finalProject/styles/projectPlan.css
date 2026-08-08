@@ -75,7 +75,10 @@ body {
     background: linear-gradient(#1c1c1c, #301934);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     color: #39ff14;
 }
 
@@ -87,10 +90,6 @@ section {
     border-radius: 15px;
     font-size: larger;
 
-    p {
-        color: #FFA8DD;
-        padding: 10px;
-    }
     .questionDiv {
         display: flex;
 
@@ -100,6 +99,11 @@ section {
             margin: 10px;
         }
     }
+}
+
+p {
+    color: #FFA8DD;
+    padding: 10px;
 }
 
 .imageContainer img {
@@ -176,7 +180,23 @@ section {
     padding: 0;
 }
 
+#dialogBTN {
+    font-size: larger;
+    background-color: #aa00ff;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
 
+dialog {
+    background-color: black;
+    border: solid 1px white;
 
+    button {
+        font-size: larger;
+    }
+}
 
-
+footer a {
+    color: #39ff14;
+}

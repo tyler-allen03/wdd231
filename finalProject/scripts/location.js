@@ -16,10 +16,14 @@ const cards = document.querySelector('#locationsContainer');
 
 
 async function getLocationData() {
-    const response = await fetch(locationUrl);
-    const data = await response.json();
-    console.table(data.fnaf_locations);
-    displayLocations(data.fnaf_locations);
+    try {
+        const response = await fetch(locationUrl);
+        const data = await response.json();
+        // console.table(data.fnaf_locations);
+        displayLocations(data.fnaf_locations);
+    } catch (error) {
+        console.log(error);
+    }
 
 }
 
@@ -43,13 +47,13 @@ const displayLocations = (locations) => {
 
 
         map.setAttribute("src", location.image);
-        map.setAttribute("alt", `The Logo for ${member.name}`);
+        map.setAttribute("alt", `The map for ${location.location}`);
         map.setAttribute("loading", "lazy");
         map.setAttribute("width", "auto");
-        map.setAttribute("height", "100");
 
 
         card.appendChild(name);
+        card.appendChild(map);
         card.appendChild(lore);
         card.appendChild(player);
         card.appendChild(mechanic);
